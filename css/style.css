@@ -735,7 +735,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   height: 390px;
-  background: url("img/examples/rectangle4.png") no-repeat; }
+  background: url("../img/examples/rectangle4.png") no-repeat; }
 
 .img-part__img {
   margin-bottom: 16px; }
