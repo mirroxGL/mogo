@@ -1,0 +1,603 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital@0;1&display=swap"
+		rel="stylesheet">
+	<!-- Заголовок страницы в браузере -->
+	<title>FLEXBOX</title>
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wrapper">
+		<div class="page">
+			<div class="content1">
+				<div class="main-block">
+					<div class="header">
+						<div class="header__body">
+							<div class="header__logo">MoGo</div>
+							<div class="header__elements">
+								<nav class="header__items">
+									<a href="" class="header__item header__item-active">about</a>
+									<a href="" class="header__item">service</a>
+									<a href="" class="header__item">work</a>
+									<a href="" class="header__item">blog</a>
+									<a href="" class="header__item">contact</a>
+									<a href="" class="shop-icon"><img src="img/icons/shopping_cart.png" alt=""></a>
+									<a href="" class="search-icon"><img src="img/icons/magnifying_glass.png" alt=""></a>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="main-block__bg"></div>
+					<div class="main-block__subtitle">Creative Template</div>
+					<div class="main-block__title">WELCOME <br> TO MOGO <br></div>
+					<a href="">
+						<div class="main-block__learn-more">LEARN MORE</div>
+					</a>
+					<div class="main-block__nav-line nav-line">
+						<div class="nav-line__body">
+							<nav class="nav-line__items">
+								<a href="" class="nav-line__item nav-line__item-active">
+									<span>01</span>INTRO
+								</a>
+								<a href="" class="nav-line__item">
+									<span>02</span>WORK
+								</a>
+								<a href="" class="nav-line__item">
+									<span>03</span>ABOUT
+								</a>
+								<a href="" class="nav-line__item">
+									<span>04</span>CONTACTS
+								</a>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-us">
+				<div class="content2">
+					<div class="about-us__subtitle">What we do</div>
+					<div class="about-us__title">STORY ABOUT-US <br></div>
+					<div class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					<div class="about-us__images">
+						<img src="img/about-us/teams.png" alt="" class="about-us__image">
+						<img src="img/about-us/headphones.png" alt="" class="about-us__image">
+						<img src="img/about-us/desktop.png" alt="" class="about-us__image">
+					</div>
+				</div>
+				<div class="about-us__statistics statistics">
+					<div class="statistics__row">
+						<div class="statistics__body">
+
+							<div class="statistics__item">
+								<div class="statistics__number">42</div>
+								<div class="statistics__text">WEB DESIGN PROJECTS</div>
+							</div>
+							<div class="statistics__item">
+								<div class="statistics__number">123</div>
+								<div class="statistics__text">HAPPY CLIENT</div>
+							</div>
+							<div class="statistics__item">
+								<div class="statistics__number">15</div>
+								<div class="statistics__text">AWARD WINNER</div>
+							</div>
+							<div class="statistics__item">
+								<div class="statistics__number">99</div>
+								<div class="statistics__text">CUP OF COFFEE</div>
+							</div>
+							<div class="statistics__item">
+								<div class="statistics__number">24</div>
+								<div class="statistics__text">MEMBERS</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content1">
+				<div class="services">
+					<div class="services__body">
+						<div class="services__top">
+							<div class="services__subtitle">We work with</div>
+							<div class="services__title">AMAZING SERVICES<br></div>
+						</div>
+						<div class="services__bottom">
+							<div class="services__column1 column">
+								<div class="column__item-body">
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/alarm.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">PHOTOGRAPHY</div>
+											<div class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+												sed do eiusmod tempor.</div>
+										</div>
+									</div>
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/line_graph.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">WEB DESIGN</div>
+											<div class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+												sed do eiusmod tempor.</div>
+										</div>
+									</div>
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/computer.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">CREATIVITY</div>
+											<div class="text-block__text">Dolor sit amet, consectetur adipiscing elit, sed do
+												eiusmod tempor.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__column2 column">
+								<div class="column__item-body">
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/book.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">SEO</div>
+											<div class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+												sed do eiusmod tempor.</div>
+										</div>
+									</div>
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/home.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">CSS/HTML</div>
+											<div class="text-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+												sed do eiusmod tempor.</div>
+										</div>
+									</div>
+									<div class="column__item">
+										<div class="column__icon"><img src="img/services/image.png" alt=""></div>
+										<div class="column__text-block text-block">
+											<div class="text-block__title">DIGITAL</div>
+											<div class="text-block__text">Dolor sit amet, consectetur adipiscing elit, sed do
+												eiusmod tempor.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="devices">
+				<div class="devices__body">
+					<div class="devices__bg">
+					</div>
+					<div class="content1">
+						<div class="devices__top">
+							<div class="devices__subtitle">For all devices</div>
+							<div class="devices__title">UNIQUE DESIGN<br></div>
+							<div class="devices__bottom">
+								<div class="devices__display"><img src="img/devices/display_bg.png" alt=""></div>
+								<div class="devices__phone"><img src="img/devices/phone_bg.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="values">
+				<div class="content1">
+					<div class="values__body">
+						<div class="values__top">
+							<div class="values__subtitle">Service</div>
+							<div class="values__title">WHAT WE DO <br></div>
+							<div class="values__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+
+						</div>
+						<div class="values__bottom">
+							<div class="values__image"><img src="img/values/rectangle.png" alt=""></div>
+							<div class="values__main-info">
+								<div class="main-info__body">
+									<div class="main-info__column1">
+										<div class="column1__header">
+											<div class="column1__left-side">
+												<img src="img/values/picture.png" alt="">
+												<div class="column1__title">PHOTOGRAPHY</div>
+											</div>
+											<div class="column1__right-site"><a href=""><img src="img/values/arrow_up.png"
+														alt=""></a></div>
+										</div>
+										<div class="column1__text">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+											incididunt
+											ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+											ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+											reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+											sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+											est laborum.
+										</div>
+									</div>
+									<div class="main-info__column2">
+										<div class="column2__left-side">
+											<img src="img/values/equalizer.png" alt="">
+											<div class="column2__title">CREATIVITY</div>
+										</div>
+										<div class="column2__right-side"><a href=""><img src="img/values/arrow_down.png"
+													alt=""></a></div>
+									</div>
+									<div class="main-info__column2">
+										<div class="column2__left-side">
+											<img src="img/values/bullseye.png" alt="">
+											<div class="column2__title">WEB DESIGN</div>
+										</div>
+										<div class="column2__right-side"><a href=""><img src="img/values/arrow_down.png"
+													alt=""></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="quote">
+				<div class="content1">
+					<div class="quote__body">
+						<div class="quote__arrow-left"><a href=""><img src="img/quote/arrow_left.png" alt=""></a></div>
+						<div class="quote__main">
+							<div class="qoute__image"><img src="img/quote/speaking.png" alt=""></div>
+							<div class="qoute__placefortext">
+								<div class="quote__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation.”</div>
+								<div class="qoute__author">Jon Doe</div>
+							</div>
+						</div>
+						<div class="quote__arrow-right"><a href=""><img src="img/quote/arrow_right.png" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="team">
+				<div class="content1">
+					<div class="team__header">
+						<div class="team__subtitle">Who we are</div>
+						<div class="team__title">MEET OUR TEAM<br></div>
+						<div class="team__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+					<div class="team__main-block">
+						<div class="team__row">
+							<div class="team__column">
+								<div class="column__img"><img src="img/team/rectangle1.png" alt=""></div>
+								<div class="column__title">MATTHEW DIX</div>
+								<div class="column__subtitle">Graphic Design</div>
+							</div>
+							<div class="team__column">
+								<div class="column__img"><img src="img/team/rectangle2.png" alt=""></div>
+								<div class="column__title">Christopher Campbell</div>
+								<div class="column__subtitle">Branding/UX design</div>
+							</div>
+							<div class="team__column">
+								<div class="column__img"><img src="img/team/rectangle3.png" alt=""></div>
+								<div class="column__title">Michael Fertig</div>
+								<div class="column__subtitle">Developer</div>
+							</div>
+						</div>
+					</div>
+					<div class="team__logos"><img src="img/team/logos.png" alt=""></div>
+				</div>
+			</div>
+			<div class="examples">
+				<div class="content1">
+					<div class="examples__top">
+						<div class="examples__subtitle">What we do</div>
+						<div class="examples__title">SOME OF OUR WORK <br></div>
+						<div class="examples__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat.
+						</div>
+					</div>
+				</div>
+				<div class="examples__main">
+					<div class="examples__img-column">
+						<div class="examples__img"><img src="img/examples/rectangle1.png" alt=""></div>
+						<div class="examples__img"><img src="img/examples/rectangle2.png" alt=""></div>
+					</div>
+					<div class="examples__img-column">
+						<div class="examples__img"><img src="img/examples/rectangle3.png" alt=""></div>
+						<div class="examples__img">
+							<div class="examples__img-part img-part">
+								<div class="img-part__img"><img src="img/examples/picture.png" alt=""></div>
+								<div class="img-part__title">creatively designed</div>
+								<div class="img-part__subtitle">Lorem ipsum dolor sit</div>
+							</div>
+						</div>
+					</div>
+					<div class="examples__img-column">
+						<div class="examples__img"><img src="img/examples/rectangle5.png" alt=""></div>
+					</div>
+					<div class="examples__img-column">
+						<div class="examples__img"><img src="img/examples/rectangle6.png" alt=""></div>
+						<div class="examples__img"><img src="img/examples/rectangle7.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="quote">
+				<div class="content1">
+					<div class="quote__body">
+						<div class="quote__arrow-left"><a href=""><img src="img/quote/arrow_left.png" alt=""></a></div>
+						<div class="quote__main">
+							<div class="qoute__image"><img src="img/quote/ellipse.png" alt=""></div>
+							<div class="qoute__placefortext">
+								<div class="quote__text">““Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation.””</div>
+								<div class="qoute__author">Joshua Earle</div>
+							</div>
+						</div>
+						<div class="quote__arrow-right"><a href=""><img src="img/quote/arrow_right.png" alt=""></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="clients">
+				<div class="clients__body">
+					<div class="clients__bg"></div>
+					<div class="content1">
+						<div class="clients__top">
+							<div class="clients__subtitle">Happy Clients</div>
+							<div class="clients__title">WHAT PEOPLE SAY <br></div>
+						</div>
+						<div class="clients__main">
+							<div class="clients__row">
+								<div class="clients__column">
+									<div class="clients__item item-clients">
+										<div class="item-clients__img"><img src="img/clients/client1.png" alt=""></div>
+										<div class="item-clients__body">
+											<div class="item-clients__title">MATTHEW DIX</div>
+											<div class="item-clients__subtitle">Graphic Designer<br></div>
+											<div class="item-clients__text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+												incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+											</div>
+										</div>
+									</div>
+									<div class="clients__item item-clients">
+										<div class="item-clients__img"><img src="img/clients/client2.png" alt=""></div>
+										<div class="item-clients__body">
+											<div class="item-clients__title">Jaelynn Castillo</div>
+											<div class="item-clients__subtitle">Graphic Designer<br></div>
+											<div class="item-clients__text">
+												Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+												ut
+												labore et dolore magna aliqua. Ut enim ad minim veniam
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clients__column">
+									<div class="clients__item item-clients">
+										<div class="item-clients__img"><img src="img/clients/client3.png" alt=""></div>
+										<div class="item-clients__body">
+											<div class="item-clients__title">Nick Karvounis</div>
+											<div class="item-clients__subtitle">Graphic Designer<br></div>
+											<div class="item-clients__text">
+												Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+												dolore magna aliqua. Ut enim ad minim veniam
+											</div>
+										</div>
+									</div>
+									<div class="clients__item item-clients">
+										<div class="item-clients__img"><img src="img/clients/client4.png" alt=""></div>
+										<div class="item-clients__body">
+											<div class="item-clients__title">Mike Petrucci</div>
+											<div class="item-clients__subtitle">Graphic Designer<br></div>
+											<div class="item-clients__text">
+												Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+												labore
+												et dolore magna aliqua. Ut enim ad minim.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="stories">
+				<div class="content1">
+					<div class="stories__top">
+						<div class="stories__subtitle">Our stories</div>
+						<div class="stories__title">LATEST BLOG <br></div>
+					</div>
+					<div class="stories__main">
+						<div class="stories__row">
+							<div class="stories__item item-stories">
+								<div class="item-stories">
+									<div class="item-stories__img">
+										<div class="item-stories__secondary-img">
+											<img src="img/stories/15jan.png" alt="">
+										</div>
+										<img src="img/stories/rectangle1.png" alt="">
+									</div>
+									<div class="item-stories__title">Lorem ipsum dolor sit amet</div>
+									<div class="item-stories__text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt
+										ut labore et dolore magna aliqua.</div>
+									<div class="item-stories__stats stories-stats">
+										<div class="stories-stats__item">
+											<div class="stories-stats__views">
+												<img src="img/stories/view.png" alt="">
+												<p class="stories-stats__num">542</p>
+											</div>
+											<div class="stories-stats__coms">
+												<img src="img/stories/speech.png" alt="">
+												<p class="stories-stats__num">17</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-stories">
+									<div class="item-stories__img">
+										<div class="item-stories__secondary-img">
+											<img src="img/stories/14jan.png" alt="">
+										</div>
+										<img src="img/stories/rectangle2.png" alt="">
+									</div>
+									<div class="item-stories__title">sed do eiusmod tempor</div>
+									<div class="item-stories__text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore
+										et dolore magna aliqua.</div>
+									<div class="item-stories__stats stories-stats">
+										<div class="stories-stats__item">
+											<div class="stories-stats__views">
+												<img src="img/stories/view.png" alt="">
+												<p class="stories-stats__num">992</p>
+											</div>
+											<div class="stories-stats__coms">
+												<img src="img/stories/speech.png" alt="">
+												<p class="stories-stats__num">42</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item-stories">
+									<div class="item-stories__img">
+										<div class="item-stories__secondary-img">
+											<img src="img/stories/12jan.png" alt="">
+										</div>
+										<img src="img/stories/rectangle3.png" alt="">
+									</div>
+									<div class="item-stories__title">incididunt ut labore et dolore</div>
+									<div class="item-stories__text">Elit, sed do eiusmod tempor incididunt ut labore et dolore
+										magna aliqua.</div>
+									<div class="item-stories__stats stories-stats">
+										<div class="stories-stats__item">
+											<div class="stories-stats__views">
+												<img src="img/stories/view.png" alt="">
+												<p class="stories-stats__num">1560</p>
+											</div>
+											<div class="stories-stats__coms">
+												<img src="img/stories/speech.png" alt="">
+												<p class="stories-stats__num">98</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<div class="map__bg"></div>
+				<div class="map__body">
+					<img src="img/map/pin.png" alt="">
+					<div class="map__text">OPEN MAP <br></div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="content1">
+					<div class="bottom__body">
+						<div class="bottom__row">
+							<div class="bottom__column1 bot-column1">
+								<div class="bot-column1__title">MoGo</div>
+								<div class="bot-column1__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+									eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="bot-column1__followers">
+									<span>15k</span> followers
+								</div>
+								<div class="bot-column1__follow follow-column1">
+									<div class="follow-column1__text">Follow Us: </div>
+									<div class="follow-column1__icons">
+										<img src="img/bottom/icons/facebook.png" alt="">
+										<img src="img/bottom/icons/twitter.png" alt="">
+										<img src="img/bottom/icons/instagram.png" alt="">
+										<img src="img/bottom/icons/pinterest.png" alt="">
+										<img src="img/bottom/icons/google.png" alt="">
+										<img src="img/bottom/icons/youtube.png" alt="">
+										<img src="img/bottom/icons/dribbble.png" alt="">
+										<img src="img/bottom/icons/tumblr.png" alt="">
+									</div>
+								</div>
+								<div class="bot-column1__email">
+									<input type="text" placeholder="Your Email...">
+									<button>SUBSCRIBE</button>
+								</div>
+							</div>
+							<div class="bottom__column2 bot-column2">
+								<div class="bot-column2__title">BLOGS</div>
+								<div class="bot-column2__body">
+									<div class="bot-column2__item item-column2">
+										<div class="item-column2__img"><img src="img/bottom/blog/rectangle1.png" alt=""></div>
+										<div class="item-column2__textarea">
+											<div class="item-column2__text">Lorem ipsum dolor sit amet,
+												consectetur adipiscing</div>
+											<div class="item-column2__date">Jan 9, 2016</div>
+										</div>
+									</div>
+									<div class="bot-column2__item item-column2">
+										<div class="item-column2__img"><img src="img/bottom/blog/rectangle2.png" alt=""></div>
+										<div class="item-column2__textarea">
+											<div class="item-column2__text">Consectetur adipiscing elit,
+												sed do eiusmod tempor</div>
+											<div class="item-column2__date">Jan 9, 2016</div>
+										</div>
+									</div>
+									<div class="bot-column2__item item-column2">
+										<div class="item-column2__img"><img src="img/bottom/blog/rectangle3.png" alt=""></div>
+										<div class="item-column2__textarea">
+											<div class="item-column2__text">sed do eiusmod tempor
+												incididunt ut labore</div>
+											<div class="item-column2__date">Jan 9, 2016</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bottom__column3 bot-column3">
+								<div class="bot-column3__title">INSTAGRAM</div>
+								<div class="bot-column3__body">
+									<div class="bot-column3__square">
+										<div class="bot-column3__row">
+											<img src="img/bottom/ig/rectangle1.png" alt="">
+											<img src="img/bottom/ig/rectangle2.png" alt="">
+											<img src="img/bottom/ig/rectangle3.png" alt="">
+										</div>
+										<div class="bot-column3__row">
+											<img src="img/bottom/ig/rectangle4.png" alt="">
+											<img src="img/bottom/ig/rectangle5.png" alt="">
+											<img src="img/bottom/ig/rectangle6.png" alt="">
+										</div>
+										<div class="bot-column3__row">
+											<img src="img/bottom/ig/rectangle7.png" alt="">
+											<img src="img/bottom/ig/rectangle8.png" alt="">
+											<img src="img/bottom/ig/rectangle9.png" alt="">
+										</div>
+									</div>
+									<div class="bot-column3__more">View more photos</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__body">
+					<div class="footer__text">© 2016 MoGo free PSD template by <span>Laaqiq</span></div>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
